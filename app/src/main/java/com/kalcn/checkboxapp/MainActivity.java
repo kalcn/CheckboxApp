@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnOK(View view){
         CheckBox chk;
         TextView txv;
-        String msg = "";
+        String msg = " ";
 
         int[] id = {R.id.chk1,R.id.chk2,R.id.chk3,R.id.chk4};
 
