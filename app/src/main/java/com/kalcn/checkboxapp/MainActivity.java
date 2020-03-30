@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void button(View view){
+    public void btnOK(View view){
         CheckBox chk;
         TextView txv;
         String msg = "";
