@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             chk = (CheckBox)findViewById(i);
 
             if(chk.isChecked())
-                msg += "\n"+chk.getText();
+                msg += " "+chk.getText();
         }
         txv = (TextView)findViewById(R.id.textView2);
         txv.setText(msg);
